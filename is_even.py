@@ -1,4 +1,4 @@
-a = int(input())
+a = int(input("Введите желаемое число: "))
 
 
 def even(k):
