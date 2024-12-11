@@ -1,4 +1,4 @@
-C = float(input())
+C = float(input("Введите ваше значения: "))
 
 
 def Per(d):
@@ -6,4 +6,4 @@ def Per(d):
     return Di
     
 Perevod = Per(C)
-print(round(Perevod, 4))
+print("Ваше значение после перевода: " + str(round(Perevod, 4)) + " F")

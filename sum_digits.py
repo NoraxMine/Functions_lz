@@ -1,4 +1,4 @@
-a = int(input())
+a = int(input("Введите желаемое значение: "))
 
 
 def dig(s):
@@ -9,5 +9,5 @@ def dig(s):
     return k
 
 Digitds = dig(a)
-print(Digitds)
+print("Преобразованное значение: " + str(Digitds))
 

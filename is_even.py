@@ -3,8 +3,8 @@ a = int(input("Введите желаемое число: "))
 
 def even(k):
     if k % 2:
-        print("Число нечётное")
-    else: print("Число чётное")
+        print("Число " + str(a) + " нечётное")
+    else: print("Число " + str(a) + " чётное")
     return k
 Even = even(a)
-print(Even)
+
